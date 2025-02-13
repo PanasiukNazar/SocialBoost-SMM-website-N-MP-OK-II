@@ -108,7 +108,7 @@ figure figcaption {
     position: fixed;
     bottom: 0;
     top: 0;
-    left: 0;
+    right: 0;
     overflow-y: scroll;
     z-index: 1001;
     background: #343148ff;
@@ -130,6 +130,7 @@ figure figcaption {
         -o-transform: translateX(-270px);
         transform: translateX(-270px);
         padding-top: 4em;
+        left: 0;
     }
 }
 #colorlib-aside #colorlib-logo {
@@ -270,7 +271,7 @@ figure figcaption {
 
 #colorlib-main {
     width: 80%;
-    float: right;
+    float: left;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
